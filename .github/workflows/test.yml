@@ -1,0 +1,24 @@
+name: test
+env:
+  ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+      - uses: conda-incubator/setup-miniconda@v2
+      - run: conda install -n test python=${{ matrix.python-version }} pytorch=${{ matrix.pytorch-version }} torchvision=${{ matrix.torchvision-version }} cpuonly -c pytorch
+      - uses: actions/checkout@v2
+      - run: echo "$CONDA/envs/test/bin" >> $GITHUB_PATH
+      - run: pip install pytest python-dotenv
+      - run: pip install .
+      - run: pytest tests

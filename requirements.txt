@@ -1,0 +1,5 @@
+diffusers@git+https://github.com/huggingface/diffusers#egg=diffusers
+scipy
+sentencepiece
+invisible-watermark
+transformers
