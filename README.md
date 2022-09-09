@@ -53,9 +53,7 @@ To achieve make a Japanese-specific model based on Stable Diffusion, we had 2 st
 
 We used the following dataset for training the model:
 
-- Approximately 100 million datasets with Japanese captions, including the Japanese subset of [LAION-5B](https://laion.ai/blog/laion-5b/).
-
-
+- Approximately 100 million images with Japanese captions, including the Japanese subset of [LAION-5B](https://laion.ai/blog/laion-5b/).
 
 
 ## Usage

@@ -3,3 +3,4 @@ scipy
 sentencepiece
 invisible-watermark
 transformers
+gradio
