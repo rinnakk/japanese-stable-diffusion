@@ -59,6 +59,8 @@ We used the following dataset for training the model:
 ## Usage
 
 <a href="https://colab.research.google.com/github/rinnakk/japanese-stable-diffusion/blob/master/scripts/txt2img.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+[![Replicate](https://replicate.com/cjwbw/japanese-stable-diffusion/badge)](https://replicate.com/cjwbw/japanese-stable-diffusion)
+
 
 Firstly, install our package as follows. This package is modified [🤗's Diffusers library](https://github.com/huggingface/diffusers) to run Japanese Stable Diffusion.
 
