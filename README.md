@@ -20,6 +20,10 @@ Many thanks to [CompVis](https://github.com/CompVis), [Stability AI](https://sta
 ### September 9, 2022
 - Release Japanese Stable Diffusion under the [CreativeML Open RAIL M License](LICENSE) in huggingface hub ([link](https://huggingface.co/rinna/japanese-stable-diffusion))
 
+# Web Demo
+
+Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the Web Demo [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/rinna/japanese-stable-diffusion)
+
 ## Model Details
 ### Why Japanese Stable Diffusion?
 Stable Diffusion is a very powerful text-to-image model, not only in terms of quality but also in terms of computational cost. 
