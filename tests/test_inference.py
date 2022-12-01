@@ -26,6 +26,6 @@ def test_inference_jsd():
         use_auth_token=ACCESS_TOKEN
     ).to(device)
     prompt = "猫の肖像画"
-    image = pipe(prompt, guidance_scale=7.5, num_inference_steps=1)["sample"][0]
+    image = pipe(prompt, guidance_scale=7.5, num_inference_steps=1)["images"][0]
 
     # image.save("output.png")
