@@ -1,4 +1,4 @@
-diffusers@git+https://github.com/huggingface/diffusers#egg=diffusers
+diffusers==0.8.1
 scipy
 sentencepiece
 invisible-watermark
